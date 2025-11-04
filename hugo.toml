@@ -1,0 +1,51 @@
+baseURL = 'https://weijenT.github.io/'
+languageCode = 'zh-tw'
+title = 'Wet / Rain'
+theme = 'PaperMod'
+
+[params]
+  description = "wei-ren / wei-jen 's blog"
+  author = "Wei-Jen"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  
+  [params.homeInfoParams]
+    Title = "Wet / Rain"
+    Content = "wei-ren / wei-jen 's blog"
+
+[params.profileMode]
+  enabled = false
+
+[[menu.main]]
+  name = "首頁"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "標籤"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name = "分類"
+  url = "/categories/"
+  weight = 4
+
+[[menu.main]]
+  name = "關於"
+  url = "/about/"
+  weight = 5
+
+# 記錄檔案的版權或頁尾文字
+#[params.footer]
+#  text = "© 2025 Wei-Jen Tseng. Powered by Hugo & PaperMod."
