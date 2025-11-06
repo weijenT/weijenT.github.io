@@ -1,6 +1,7 @@
 ---
 title: "常搞不清楚的逸入逸出過程 (entrainment/detrainment)"
 date: 2016-04-20T16:11:00+08:00
+slug: "confusing-entrainment-detrainment"
 draft: false
 categories: ["nature"]
 ---

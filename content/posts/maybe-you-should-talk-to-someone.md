@@ -1,6 +1,7 @@
 ---
 title: "也許你該找人聊聊：一個諮商心理師與她的心理師，以及我們的生活"
 date: 2020-11-04T16:35:00+08:00
+slug: "confusing-entrainment-detrainment"
 draft: false
 categories: ["reading"]
 ---

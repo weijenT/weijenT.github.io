@@ -14,12 +14,15 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowToc = true
   
-  [params.homeInfoParams]
-    Title = "Wet / Rain"
-    Content = "wei-ren / wei-jen 's blog"
+[params.homeInfoParams]
+  Title = "Wet / Rain"
+  Content = "wei-ren / wei-jen 's blog"
 
 [params.profileMode]
   enabled = false
+
+[permalinks]
+  posts = "/:year/:slug/"
 
 [[menu.main]]
   name = "首頁"
