@@ -1,0 +1,49 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{- $title := .Get "title" -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $class := .Get "class" -}}
+{{- $link := .Get "link" -}}
+{{- $target := .Get "target" -}}
+{{- $rel := .Get "rel" -}}
+
+{{- $cdnBase := site.Params.cdnURL | default "" -}}
+
+{{- /* 處理 src 路徑 */ -}}
+{{- if hasPrefix $src "http" -}}
+  {{- /* 完整 URL，直接使用 */ -}}
+{{- else if (findRE "/" $src) -}}
+  {{- /* 包含斜線，視為相對路徑，加上 CDN base */ -}}
+  {{- if $cdnBase -}}
+    {{- $src = printf "%s/%s" $cdnBase $src -}}
+  {{- end -}}
+{{- else -}}
+  {{- /* 只有檔名，自動推導路徑 */ -}}
+  {{- if $cdnBase -}}
+    {{- $year := .Page.Date.Format "2006" -}}
+    {{- /* 優先使用 front matter 的 slug，否則用檔名 */ -}}
+    {{- $slug := .Page.Params.slug | default .Page.File.BaseFileName -}}
+    {{- $src = printf "%s/%s/%s/%s" $cdnBase $year $slug $src -}}
+  {{- end -}}
+{{- end -}}
+
+<figure{{- with $class }} class="{{ . }}"{{ end }}>
+  {{- if $link -}}
+  <a href="{{ $link }}"
+     {{- with $target }} target="{{ . }}"{{ end }}
+     {{- with $rel }} rel="{{ . }}"{{ end }}>
+  {{- end -}}
+  <img src="{{ $src }}"
+       {{- with $alt }} alt="{{ . }}"{{ end }}
+       {{- with $title }} title="{{ . }}"{{ end }}
+       {{- with $width }} width="{{ . }}"{{ end }}
+       {{- with $height }} height="{{ . }}"{{ end -}}>
+  {{- if $link -}}
+  </a>
+  {{- end -}}
+  {{- with $caption }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end -}}
+</figure>
