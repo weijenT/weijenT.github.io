@@ -2,7 +2,7 @@
 title = '熊野伊勢2025：（一）迴圈與邊界。'
 slug = '2025-kumano-ise-01-loop'
 date = 2025-04-01T23:49:37+08:00
-draft = true
+draft = false
 categories = ['out']
 tags = ['Japan','Kohechi','小邊路']
 +++
