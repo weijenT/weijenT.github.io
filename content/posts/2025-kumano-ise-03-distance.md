@@ -2,7 +2,6 @@
 title = '熊野伊勢2025：（三）距離感'
 slug = '2025-kumano-ise-03-distance'
 date = 2025-04-15T16:50:17+08:00
-draft = true
 categories = ['out']
 tags = ['Japan','Kohechi','小邊路']
 +++
