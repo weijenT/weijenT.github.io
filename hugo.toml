@@ -14,7 +14,10 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowToc = true
   cdnURL = "https://weiren.b-cdn.net/blog-images/posts"
-  
+ 
+[params.analytics.goatcounter]
+  code = "weiren"
+ 
 [params.homeInfoParams]
   Title = "Wet / Rain"
   Content = "wei-ren / wei-jen 's blog"
