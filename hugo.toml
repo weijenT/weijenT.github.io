@@ -14,7 +14,8 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowToc = true
   cdnURL = "https://weiren.b-cdn.net/blog-images/posts"
- 
+
+
 [params.analytics.goatcounter]
   code = "weiren"
  
@@ -25,34 +26,32 @@ theme = 'PaperMod'
 [params.profileMode]
   enabled = false
 
+
 [permalinks]
   posts = "/:year/:slug/"
 
 [[menu.main]]
-  name = "首頁"
+  name = "Home | 首頁"
   url = "/"
   weight = 1
 
 [[menu.main]]
-  name = "文章"
+  name = "Posts | 文章"
   url = "/posts/"
   weight = 2
 
 [[menu.main]]
-  name = "標籤"
+  name = "Tags | 標籤"
   url = "/tags/"
   weight = 3
 
 [[menu.main]]
-  name = "分類"
+  name = "Categories | 分類"
   url = "/categories/"
   weight = 4
 
 [[menu.main]]
-  name = "關於"
+  name = "About | 關於作者"
   url = "/about/"
   weight = 5
 
-# 記錄檔案的版權或頁尾文字
-#[params.footer]
-#  text = "© 2025 Wei-Jen Tseng. Powered by Hugo & PaperMod."
