@@ -19,6 +19,15 @@ theme = 'PaperMod'
 [params.analytics.goatcounter]
   code = "weiren"
  
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
 [params.homeInfoParams]
   Title = "Wet / Rain"
   Content = "wei-ren / wei-jen 's blog"
@@ -26,9 +35,12 @@ theme = 'PaperMod'
 [params.profileMode]
   enabled = false
 
-
 [permalinks]
   posts = "/:year/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]  # 加入 JSON 來產生搜尋索引
+
 
 [[menu.main]]
   name = "Home | 首頁"
@@ -54,4 +66,10 @@ theme = 'PaperMod'
   name = "About | 關於作者"
   url = "/about/"
   weight = 5
+
+[[menu.main]]
+  identifier = "search"
+  name = "🔍 搜尋"
+  url = "/search/"
+  weight = 10
 
