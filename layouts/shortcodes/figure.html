@@ -44,6 +44,6 @@
   </a>
   {{- end -}}
   {{- with $caption }}
-  <figcaption>{{ . | markdownify }}</figcaption>
+  <figcaption>{{ . | markdownify | safeHTML }}</figcaption>
   {{- end -}}
 </figure>
