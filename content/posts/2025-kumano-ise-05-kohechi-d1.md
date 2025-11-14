@@ -2,7 +2,6 @@
 title = '熊野伊勢2025：（五）小邊路D1_高野山⇢大股'
 slug = '2025-kumano-ise-05-kohechi-d1'
 date = 2025-11-11T16:05:34+08:00
-draft = true
 categories = ['out']
 tags = ['Japan','Kohechi','小邊路']
 +++
