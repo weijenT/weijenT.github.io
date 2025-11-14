@@ -1,0 +1,23 @@
+<footer class="footer">
+    <span>{{ replace (site.Copyright | markdownify) "{year}" (string now.Year) | safeHTML }}</span>
+    <span id="email-contact">寄信看這邊XD：</span>
+    <br>
+    {{- if not (.Param "hideFooter") }}
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener noreferrer" target="_blank">PaperMod</a>
+    </span>
+    {{- end }}
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var reversed = "gro.neriew@golb";
+  var email = reversed.split('').reverse().join('');
+  var contactSpan = document.getElementById('email-contact');
+  if (contactSpan) {
+    contactSpan.innerHTML = '寄信看這邊XD：<a href="mailto:' + email + '">' + email + '</a>';
+  }
+});
+</script>

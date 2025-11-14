@@ -1,0 +1,10 @@
+<span id="email-{{ .Get 0 }}"></span>
+
+<script>
+(function() {
+  var reversed = "{{ .Get 1 }}";
+  var email = reversed.split('').reverse().join('');
+  document.getElementById('email-{{ .Get 0 }}').innerHTML = 
+    '<a href="mailto:' + email + '">' + email + '</a>';
+})();
+</script>

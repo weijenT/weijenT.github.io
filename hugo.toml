@@ -2,6 +2,7 @@ baseURL = "https://weiren.org/"
 languageCode = 'zh-tw'
 title = 'Wet / Rain'
 theme = 'PaperMod'
+copyright = "© {year} Wei-Jen Tseng. Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)."
 
 [params]
   description = "wei-ren / wei-jen 's blog"
@@ -63,7 +64,7 @@ theme = 'PaperMod'
   weight = 4
 
 [[menu.main]]
-  name = "About | 關於作者"
+  name = "About | 關於這裡"
   url = "/about/"
   weight = 5
 
