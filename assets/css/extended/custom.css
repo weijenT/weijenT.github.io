@@ -17,3 +17,19 @@
    .post-content a:visited {
        color: #059669; /* 已訪問的顏色 */
    }
+
+/* 圖片 caption 樣式 */
+    figure figcaption {
+    background-color: #f5f5f5;
+    padding: 8px 12px;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #666;
+    }
+
+/* 深色模式下的 caption */
+    .dark figure figcaption {
+    background-color: #2a2a2a;
+    color: #b0b0b0;
+    }
