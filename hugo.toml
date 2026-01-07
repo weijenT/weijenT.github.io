@@ -1,0 +1,9 @@
+baseURL = 'https://weijent.github.io/'
+languageCode = 'zh-tw'
+title = 'Wet / Rain'
+theme = 'PaperMod'
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true

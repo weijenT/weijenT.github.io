@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wet / Rain</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Wet / Rain</description>
+    <generator>Hugo -- 0.154.3</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 07 Jan 2024 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 07 Jan 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;歡迎來到我的部落格&#34;&gt;歡迎來到我的部落格&lt;/h2&gt;
+&lt;p&gt;這是我的第一篇文章。&lt;/p&gt;
+&lt;h3 id=&#34;測試功能&#34;&gt;測試功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;清單項目 1&lt;/li&gt;
+&lt;li&gt;清單項目 2&lt;/li&gt;
+&lt;li&gt;清單項目 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這是一段測試文字。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
