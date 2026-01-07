@@ -1,12 +1,13 @@
-baseURL = 'https://weijent.github.io/'
+baseURL = 'https://weiren.org/'
 languageCode = 'zh-tw'
 title = 'Wet / Rain'
 theme = 'PaperMod'
 
 [params]
   ShowPostNavLinks = true
+  defaultTheme = "auto"
+  disableThemeToggle = false
 
-  # Favicon 設定
 [params.assets]
   favicon = "/favicon.ico"
   favicon16x16 = "/favicon-16x16.png"
