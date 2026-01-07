@@ -7,3 +7,34 @@ theme = 'PaperMod'
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
+
+[[menu.main]]
+  name = "Home | 首頁"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts | 文章"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags | 標籤"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name = "Categories | 分類"
+  url = "/categories/"
+  weight = 4
+
+[[menu.main]]
+  name = "About | 關於這裡"
+  url = "/about/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "search"
+  name = "🔍 搜尋"
+  url = "/search/"
+  weight = 10
