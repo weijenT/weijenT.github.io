@@ -2,6 +2,7 @@
 title = 'My First Post'
 date = 2024-01-07T10:00:00+08:00
 draft = false
+slug = 'first-post'
 +++
 
 ## 歡迎來到我的部落格

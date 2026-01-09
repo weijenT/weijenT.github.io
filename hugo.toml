@@ -3,6 +3,10 @@ languageCode = 'zh-tw'
 title = 'Wet / Rain'
 theme = 'PaperMod'
 
+[permalinks]
+  posts = '/:year/:slug/'
+
+
 [params]
   ShowPostNavLinks = true
   defaultTheme = "auto"
