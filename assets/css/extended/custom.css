@@ -1,0 +1,31 @@
+/* 文章內容的超連結顏色 */
+.post-content a {
+    color: #059669 !important;                /* 明亮模式的連結顏色 */
+    text-decoration: none !important;
+    border-bottom: none !important;           /* 移除可能的 border-bottom */
+    box-shadow: none !important;              /* 移除可能的 box-shadow 底線 */
+}
+
+/* 滑鼠懸停時的顏色 */
+.post-content a:hover {
+    color: #059669 !important;                /* 懸停時的顏色 */
+    text-decoration: underline !important;
+}
+
+/* 已訪問過的連結顏色 */
+.post-content a:visited {
+    color: #059669 !important;                /* 已訪問的顏色 */
+}
+
+/* 黑暗模式下的超連結顏色 */
+.dark .post-content a {
+    color: #10b981 !important;                /* 黑暗模式用更亮的綠色 */
+}
+
+.dark .post-content a:hover {
+    color: #34d399 !important;                /* 黑暗模式懸停時更亮 */
+}
+
+.dark .post-content a:visited {
+    color: #10b981 !important;
+}
