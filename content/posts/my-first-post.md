@@ -9,6 +9,19 @@ slug = 'first-post'
 
 這是我的第一篇文章。
 
+### 測試圖片功能
+
+#### 方法 1：標準 Markdown（無 caption）
+![測試圖片](test-image.jpg)
+
+#### 方法 1：標準 Markdown（有 caption）
+![測試圖片](test-image.jpg "這是用 Markdown title 產生的圖片說明")
+
+#### 方法 2：Shortcode（帶參數）
+{{< cdn-img src="test-image.jpg" alt="測試圖片" width="500" caption="這是圖片說明" >}}
+
+### 測試功能
+
 ### 測試功能
 
 - 清單項目 1

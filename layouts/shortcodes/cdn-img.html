@@ -1,0 +1,19 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $width := .Get "width" | default "" -}}
+{{- $height := .Get "height" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+
+{{- if not (hasPrefix $src "http") -}}
+  {{- $year := .Page.Date.Format "2006" -}}
+  {{- $slug := .Page.Params.slug | default .Page.File.ContentBaseName -}}
+  {{- $src = printf "https://weiren.b-cdn.net/blog-images/posts/%s/%s/%s" $year $slug $src -}}
+{{- end -}}
+
+<figure>
+  <img src="{{ $src }}" alt="{{ $alt }}"
+    {{- with $width }} width="{{ . }}"{{ end -}}
+    {{- with $height }} height="{{ . }}"{{ end -}}
+  >
+  {{- with $caption }}<figcaption>{{ . }}</figcaption>{{ end -}}
+</figure>

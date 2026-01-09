@@ -1,0 +1,18 @@
+{{- $src := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+
+{{- if not (hasPrefix $src "http") -}}
+  {{- $year := .Page.Date.Format "2006" -}}
+  {{- $slug := .Page.Params.slug | default .Page.File.ContentBaseName -}}
+  {{- $src = printf "https://weiren.b-cdn.net/blog-images/posts/%s/%s/%s" $year $slug $src -}}
+{{- end -}}
+
+{{- if $title -}}
+<figure>
+  <img src="{{ $src }}" alt="{{ $alt }}">
+  <figcaption>{{ $title }}</figcaption>
+</figure>
+{{- else -}}
+<img src="{{ $src }}" alt="{{ $alt }}">
+{{- end -}}

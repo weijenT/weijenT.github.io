@@ -15,7 +15,20 @@
       <guid>http://localhost:1313/2024/first-post/</guid>
       <description>&lt;h2 id=&#34;歡迎來到我的部落格&#34;&gt;歡迎來到我的部落格&lt;/h2&gt;
 &lt;p&gt;這是我的第一篇文章。&lt;/p&gt;
+&lt;h3 id=&#34;測試圖片功能&#34;&gt;測試圖片功能&lt;/h3&gt;
+&lt;h4 id=&#34;方法-1標準-markdown無-caption&#34;&gt;方法 1：標準 Markdown（無 caption）&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://weiren.b-cdn.net/blog-images/posts/2024/first-post/test-image.jpg&#34; alt=&#34;測試圖片&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;方法-1標準-markdown有-caption&#34;&gt;方法 1：標準 Markdown（有 caption）&lt;/h4&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;img src=&#34;https://weiren.b-cdn.net/blog-images/posts/2024/first-post/test-image.jpg&#34; alt=&#34;測試圖片&#34;&gt;
+  &lt;figcaption&gt;這是用 Markdown title 產生的圖片說明&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h4 id=&#34;方法-2shortcode帶參數&#34;&gt;方法 2：Shortcode（帶參數）&lt;/h4&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;https://weiren.b-cdn.net/blog-images/posts/2024/first-post/test-image.jpg&#34; alt=&#34;測試圖片&#34; width=&#34;500&#34;&gt;&lt;figcaption&gt;這是圖片說明&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;h3 id=&#34;測試功能&#34;&gt;測試功能&lt;/h3&gt;
+&lt;h3 id=&#34;測試功能-1&#34;&gt;測試功能&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;清單項目 1&lt;/li&gt;
 &lt;li&gt;清單項目 2&lt;/li&gt;
