@@ -55,3 +55,28 @@ figcaption {
     background-color: #e5e7eb !important;
     border-left-color: #10b981 !important;
 }
+
+/* 自訂 Footer 樣式 */
+.custom-footer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.custom-footer a {
+    color: #059669 !important;
+    text-decoration: none;
+}
+
+.custom-footer a:hover {
+    text-decoration: underline;
+}
+
+/* 隱藏主題預設的 footer */
+/* 或更精確地隱藏 */
+footer.footer > span {
+    display: none;
+}
