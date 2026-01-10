@@ -171,11 +171,27 @@
         <path d="M12 6H0l6-6z" />
     </svg>
 </a><div class="custom-footer">
-    <span>© 2026 Wei-Jen Tseng | Mail/信箱: [contact method TBD] | Powered by 
+    <span>© 2026 Wei-Jen Tseng | Mail/信箱: <span id="email-link"></span> | Powered by 
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> & 
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </div>
+
+<script>
+(function() {
+    
+    var reversedEmail = 'gro.neriew@golb';
+    var email = reversedEmail.split('').reverse().join('');
+    var emailLink = document.getElementById('email-link');
+    
+    if (emailLink) {
+        var link = document.createElement('a');
+        link.href = 'mailto:' + email;
+        link.textContent = email;
+        emailLink.appendChild(link);
+    }
+})();
+</script>
 
 
 <script>
