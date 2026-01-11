@@ -3,8 +3,8 @@ title = '熊野伊勢2025：（二）地圖（們）'
 slug = '2025-kumano-ise-02-maps'
 date = 2025-04-06T12:23:41+08:00
 draft = false
-tags = ['out']
-categories = ['Japan','Kohechi','小邊路']
+categories = ['out']
+tags = ['Japan','Kohechi','小邊路']
 +++
 0。
 

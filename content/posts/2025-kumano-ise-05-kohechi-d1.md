@@ -115,7 +115,6 @@ tags = ['Japan','Kohechi','小邊路']
 {{< cdn-img src="2025-kumano-ise-05-kohechi-d1_026.jpg" alt="雜炊飯" caption="感謝老闆幫我煮雜炊，拍起來不怎樣，實際上夭壽好吃。" >}} 
 {{< cdn-img src="2025-kumano-ise-05-kohechi-d1_027.jpg" alt="火爐" caption="民宿餐廳裡頭燒木頭的火爐" >}} 
 
----
 [^1]: コース定数：1.8x 標準路線時間（h）+0.3x 步行距離（km）+10.0x上行累積海拔（Km） +0.6 x 下行累計海拔（km）
 [^2]: AB為區間行進時間（分鐘），方框內為相對YAMAP的速度比。A(我)\B(YAMAP)。
 [^3]: 便利商店：ニューヤマザキデイリーストア 高野山店

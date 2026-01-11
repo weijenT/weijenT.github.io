@@ -1,0 +1,17 @@
+{{- $reversed := "gro.neriew@golb" -}}
+<span class="encrypted-email" data-email="{{ $reversed }}"></span>
+
+<script>
+(function() {
+    var emailSpans = document.querySelectorAll('.encrypted-email:not(.decrypted)');
+    emailSpans.forEach(function(emailSpan) {
+        var reversed = emailSpan.getAttribute('data-email');
+        var email = reversed.split('').reverse().join('');
+        var link = document.createElement('a');
+        link.href = 'mailto:' + email;
+        link.textContent = email;
+        emailSpan.appendChild(link);
+        emailSpan.classList.add('decrypted');
+    });
+})();
+</script>
