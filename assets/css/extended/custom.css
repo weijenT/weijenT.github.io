@@ -80,3 +80,16 @@ figcaption {
 footer.footer > span {
     display: none;
 }
+
+/* 調整文章內文字體大小 */
+.post-content {
+    font-size: 1.15rem;           /* 預設是 1rem，調大到 1.15rem */
+    line-height: 1.8;            /* 行高也稍微增加，閱讀更舒適 */
+}
+
+/* 手機版字體稍小一點 */
+@media (max-width: 768px) {
+    .post-content {
+        font-size: 1.05rem;
+    }
+}
