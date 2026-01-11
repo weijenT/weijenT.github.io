@@ -34,9 +34,9 @@ categories = ['Japan','Kohechi','小邊路']
 
 像這樣有特定目的的地圖，除了基本的路線指引，還會包含容易迷路區域的放大說明。我這邊放上同一段不同發行單位的地圖，和歌山縣（淺色日文版[^1]）、十津川村日文版（綠底日文[^2]）、十津川村英文版（淺色英文[^3]）。
 
-{{< figure src="guidemap-kohechi-wakayama-jp.png" alt="和歌山日文地圖" caption="和歌山縣日文版" >}}
-{{< figure src="guidemap-kohechi-totsukawa-jp.png" alt="十津川村日文版地圖" caption="十津川村日文版" >}}
-{{< figure src="guidemap-kohechi-totsukawa-en.png" alt="十津川村英文版地圖" caption="十津川村英文版" >}}
+{{< cdn-img src="guidemap-kohechi-wakayama-jp.png" alt="和歌山日文地圖" caption="和歌山縣日文版" >}}
+{{< cdn-img src="guidemap-kohechi-totsukawa-jp.png" alt="十津川村日文版地圖" caption="十津川村日文版" >}}
+{{< cdn-img src="guidemap-kohechi-totsukawa-en.png" alt="十津川村英文版地圖" caption="十津川村英文版" >}}
 
 可以看到日文版的資訊量最多，包含各點間的行進時間、清楚的海拔與里程描述、路標所在地、還會跟你說哪些路段陡上之類的叮嚀，英文版則是相對簡單不囉唆 XD。對於台灣人來說，有另外一個奢侈的煩惱，就是地點名稱多為漢字，於是可以考慮參考多份地圖。
 
