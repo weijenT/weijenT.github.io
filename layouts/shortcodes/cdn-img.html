@@ -15,5 +15,5 @@
     {{- with $width }} width="{{ . }}"{{ end -}}
     {{- with $height }} height="{{ . }}"{{ end -}}
   >
-  {{- with $caption }}<figcaption>{{ . }}</figcaption>{{ end -}}
+  {{- with $caption }}<figcaption>{{ . | safeHTML }}</figcaption>{{ end -}}
 </figure>
