@@ -7,9 +7,9 @@ tags = ['app','ios']
 categories = ['picks']
 +++
 
-> 這是我的「[BlogBlog 同樂會 - 2026 年 1 月](https://wiwi.blog/blog/blogblog-party-jan-2026/)」的投稿文章。本月主題是「推坑」，由 [Wiwi](https://wiwi.blog/) 主持。如果你有自己的部落格，歡迎一起來參加！
+> 這是我的「[BlogBlog 同樂會 - 2026 年 1 月](https://blogblog.club/party)」的投稿文章。本月主題是「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026)」，由 [Wiwi](https://wiwi.blog/) 主持。如果你有自己的部落格，歡迎一起來參加！
 
-跟人聊天又不知道可以聊什麼的時候，我常常會搬氣象話題出來破冰，加上後來唸了氣象，於是三不五時會被問到「天氣如何」，所以乾脆來推一下氣象署(CWA)的 app [^1]，它可以說是得知台灣天氣資訊的最佳選擇之一。
+跟人聊天又不知道可以聊什麼的時候，我常常會搬氣象話題出來破冰，加上後來唸了氣象，於是三不五時會被問到「天氣如何」，所以乾脆來推一下[氣象署(CWA)](https://www.cwa.gov.tw/) 的 app [^1]，它可以說是得知台灣天氣資訊的最佳選擇之一。
 
 {{< cdn-img src="app-cwa-01.png" alt="截圖" width="500" caption="我覺得大家都可以考慮安裝的兩款氣象署發行的app<br>上排：中央氣象署W，我會把通知關掉，不然很吵XD<br>下排：中央氣象署E，即時地震通知，我會把通知打開。" >}}
 
