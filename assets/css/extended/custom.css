@@ -42,8 +42,8 @@ figcaption {
     padding: 0.75rem 1rem;
     font-size: 0.9rem;
     color: #6b7280;                      /* 灰色文字 */
-    background-color: #f3f4f6;           /* 淺灰背景 */
-    border-left: 4px solid #059669;      /* 左側綠色邊條 */
+    background-color: #faf5e8;           /*橘色 */
+    border-top: 4px solid #f5be2f;      /* 上方橘色邊條 */
     border-radius: 4px;
     text-align: left;
 }
@@ -52,8 +52,8 @@ figcaption {
 [data-theme="dark"] figcaption,
 .dark figcaption {
     color: #111827 !important;           /* 非常深的灰色，加 !important 強制套用 */
-    background-color: #e5e7eb !important;
-    border-left-color: #10b981 !important;
+    background-color: #faf5e8 !important; /*橘色*/
+    border-top-color: #f5be2f !important;
 }
 
 /* 自訂 Footer 樣式 */
@@ -92,4 +92,21 @@ footer.footer > span {
     .post-content {
         font-size: 1.05rem;
     }
+}
+
+/* 自訂引用區塊樣式 */
+.post-content blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    background-color: #f3f4f6;           /* 淡灰色背景 */
+    border-left: 4px solid #9ca3af;     /* 灰色左邊框 */
+    border-radius: 4px;
+    font-style: normal;                  /* 移除斜體 */
+}
+
+/* 黑暗模式的引用區塊 */
+.dark .post-content blockquote {
+    background-color: #1f2937;           /* 深灰背景 */
+    border-left-color: #6b7280;          /* 較亮的灰色邊框 */
+    color: #e5e7eb;                      /* 淺色文字 */
 }
