@@ -2,7 +2,7 @@
 title = '神只在心中，不在他方。'
 slug = 'the-god-within-not-outside'
 date = 2026-02-22T15:14:50+08:00
-draft = true
+draft = false
 tags = []
 categories = ['fragments']
 +++
