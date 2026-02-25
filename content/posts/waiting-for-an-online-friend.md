@@ -3,8 +3,8 @@ title = '打算等多久？'
 slug = 'waiting-for-an-online-friend'
 date = 2026-02-03T00:00:00+08:00
 draft = false
-tags = []
-categories = ['out']
+tags = ['picks']
+categories = ['fragments']
 +++
 不善於規劃的大 P [^1] 人如我，大概只有與人碰面前，會仔細精算起床或交通時間：從起床後梳洗、下樓前往捷運站、搭哪一班捷運、捷運運行時間、（非平行轉乘時）不同捷運線的移動時間、第二班捷運的運行時間、出捷運站抵達目的地的步行時間。慢慢會有種預感，能夠約略抓出多久前要前往下一個目的地，再跟 Google Maps 確認過就可以安心做事，等待移動的時刻。
 

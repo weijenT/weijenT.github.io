@@ -11,6 +11,7 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   defaultTheme = "auto"
   disableThemeToggle = false
+  author = "Wayne"
 
 [params.assets]
   favicon = "/favicon.ico"

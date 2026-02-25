@@ -3,8 +3,8 @@ title = '[推] 手機上的氣象app：中央氣象署W-生活氣象'
 slug = 'app-cwa'
 date = 2026-01-30T23:09:00+08:00
 draft = false
-tags = ['app','ios']
-categories = ['picks']
+tags = ['app','ios','picks']
+categories = ['fragments']
 +++
 
 > 這是我的「[BlogBlog 同樂會 - 2026 年 1 月](https://blogblog.club/party)」的投稿文章。本月主題是「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026)」，由 [Wiwi](https://wiwi.blog/) 主持。如果你有自己的部落格，歡迎一起來參加！
