@@ -45,6 +45,11 @@ theme = 'PaperMod'
   weight = 5
 
 [[menu.main]]
+  name = "RSS | 訂閱"
+  url = "/index.xml"
+  weight = 6
+
+[[menu.main]]
   identifier = "search"
   name = "🔍 搜尋"
   url = "/search/"
