@@ -3,17 +3,24 @@
 {{- $width := .Get "width" | default "" -}}
 {{- $height := .Get "height" | default "" -}}
 {{- $caption := .Get "caption" | default "" -}}
+{{- $cdn := .Site.Params.imageCDN | default "https://img.weiren.org" -}}
 
 {{- if not (hasPrefix $src "http") -}}
   {{- $year := .Page.Date.Format "2006" -}}
   {{- $slug := .Page.Params.slug | default .Page.File.ContentBaseName -}}
-  {{- $src = printf "https://weiren.b-cdn.net/blog-images/posts/%s/%s/%s" $year $slug $src -}}
+  {{- $src = printf "%s/blog-images/posts/%s/%s/%s" $cdn $year $slug $src -}}
 {{- end -}}
 
 <figure>
-  <img src="{{ $src }}" alt="{{ $alt }}"
+  <img 
+    src="{{ $src }}" 
+    alt="{{ $alt }}"
     {{- with $width }} width="{{ . }}"{{ end -}}
     {{- with $height }} height="{{ . }}"{{ end -}}
+    loading="lazy"
+    decoding="async"
   >
-  {{- with $caption }}<figcaption>{{ . | safeHTML }}</figcaption>{{ end -}}
+  {{- with $caption }}
+  <figcaption>{{ . | safeHTML }}</figcaption>
+  {{- end }}
 </figure>

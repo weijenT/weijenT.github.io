@@ -15,7 +15,8 @@ enableRobotsTXT = true
   disableThemeToggle = false
   author = "Wayne"
   env = "production"
-  images = ["https://weiren.b-cdn.net/blog-images/common/banner_1200.jpg"]
+  images = ["https://img.weiren.org/blog-images/common/banner_1200.jpg"]
+  imageCDN = "https://img.weiren.org"
   showToc = false
   tocOpen = false
 
