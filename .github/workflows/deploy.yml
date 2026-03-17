@@ -20,6 +20,16 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Restore Hugo cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            /tmp/hugo_cache
+            resources/_gen
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/hugo.*', '**/config.*', '**/go.mod', '**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -27,6 +37,8 @@ jobs:
           extended: true
 
       - name: Build
+        env:
+          HUGO_CACHEDIR: /tmp/hugo_cache
         run: hugo --minify --gc --enableGitInfo
 
       - name: Upload artifact
