@@ -3,13 +3,14 @@
     color: #059669 !important;                /* 明亮模式的連結顏色 */
     text-decoration: none !important;
     border-bottom: none !important;           /* 移除可能的 border-bottom */
-    box-shadow: none !important;              /* 移除可能的 box-shadow 底線 */
+    box-shadow: none !important;              /* 移除可能的 box-shadow 底線 */    
 }
 
 /* 滑鼠懸停時的顏色 */
 .post-content a:hover {
     color: #059669 !important;                /* 懸停時的顏色 */
     text-decoration: underline !important;
+    text-underline-offset: 4px;
 }
 
 /* 已訪問過的連結顏色 */
