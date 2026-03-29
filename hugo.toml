@@ -74,3 +74,6 @@ enableRobotsTXT = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[services.rss]
+  limit = 20
