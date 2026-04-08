@@ -86,6 +86,7 @@ footer.footer > span {
 .post-content {
     font-size: 1.15rem;           /* 預設是 1rem，調大到 1.15rem */
     line-height: 1.8;            /* 行高也稍微增加，閱讀更舒適 */
+    letter-spacing: 0.02em;
 }
 
 /* 手機版字體稍小一點 */
